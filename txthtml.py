@@ -257,8 +257,7 @@ def generate_html(file_name, videos, pdfs, others):
 <body>
     <div class="header">
         {file_name_without_extension}
-        <div class="subheading">📥 <b>Extracted By : {CREDIT}</b></div>
-    </div>
+        <div class="channel"><a href="https://t.me/urban_rider2007" target="_blank">♡ мʳ н𝕖Ｌℙ𝐞ｒ ♡</a></div>
 
     <div id="video-player">
         <video id="engineer-babu-player" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
