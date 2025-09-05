@@ -19,15 +19,20 @@ bot = Client(
 
 #======≠===============================================================
 keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton(text="🛠️ Help", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/Txt-html")],
+        [InlineKeyboardButton(text="Join Free channel 🎯", url=f"tg://openmessage?user_id={OWNER}")],
 ])
 #======≠===============================================================
 image_urls = [
-    "https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
-    "https://tinypic.host/images/2025/07/14/Logo-1.jpg",
-    "https://envs.sh/GVI.jpg",
-    "https://envs.sh/GVW.jpg",
-    "https://envs.sh/GV0.jpg",
+    "https://envs.sh/ijI.jpg
+",
+    "https://envs.sh/ijI.jpg
+",
+    "https://envs.sh/ej4.jpg
+",
+    "https://envs.sh/ej4.jpg
+",
+    "https://envs.sh/ej4.jpg
+",
     # Add more image URLs as needed
 ]
 
@@ -40,7 +45,7 @@ async def start_command(bot: Client, message: Message):
         f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n"
         f"➠ 𝐈 𝐚𝐦 .𝐭𝐱𝐭 𝐭𝐨 .𝐡𝐭𝐦𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 𝐁𝐨𝐭\n\n"
         f"➠ Send One or More .txt files!\n\n"
-        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 🦁"
+        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : CREDIT,href= "https://t.me/hellospecial"🦁"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -62,7 +67,7 @@ async def id_command(client, message: Message):
 
 @bot.on_message(filters.private & filters.command(["info"]))
 async def info(bot: Client, update: Message):
-    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}")]])
+    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/hellospecial")]])
     text = (
         f"╭────────────────╮\n"
         f"│✨ **Your Telegram Info**✨ \n"
@@ -104,7 +109,7 @@ async def handle_file(client: Client, message: Message):
     with open(html_file_path, "w") as f:
         f.write(html_content)
 
-    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n🌟**Extracted By : {CREDIT}**")
+    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n🌟**Extracted By : CREDIT , url = f"https://t.me/hellospecial"**")
     
     os.remove(file_path)
     os.remove(html_file_path)
