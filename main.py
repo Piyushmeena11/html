@@ -23,16 +23,11 @@ keyboard = InlineKeyboardMarkup([
 ])
 #======≠===============================================================
 image_urls = [
-    "https://envs.sh/ijI.jpg
-",
-    "https://envs.sh/ijI.jpg
-",
-    "https://envs.sh/ej4.jpg
-",
-    "https://envs.sh/ej4.jpg
-",
-    "https://envs.sh/ej4.jpg
-",
+    "https://envs.sh/ijI.jpg",
+    "https://envs.sh/ijI.jpg",
+    "https://envs.sh/ej4.jpg",
+    "https://envs.sh/ej4.jpg",
+    "https://envs.sh/ej4.jpg",
     # Add more image URLs as needed
 ]
 
